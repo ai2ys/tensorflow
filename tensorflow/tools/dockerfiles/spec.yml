@@ -73,6 +73,9 @@ slice_sets:
         - add_to_name: "-jupyter"
           partials:
               - jupyter
+        - add_to_name: "-jupyterlab"
+          partials:
+              - jupyterlab
 
     ubuntu:
         - add_to_name: ""
